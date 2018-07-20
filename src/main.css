@@ -1,0 +1,43 @@
+.marginAvatar{
+    margin:50px 50px;
+}
+
+.titleColor {
+    color:white;
+}
+
+.tabTitle {
+    float:left;
+}
+
+.alignAdd {
+    float: left;
+    left: 50%;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+    padding-left: 25px;
+}
+
+.marginSides {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.space5 {
+    margin-bottom: 5px;
+}
+
+.space50 {
+    margin-bottom: 50px;
+}
+
+.iconMargin {
+    margin-right:10px
+}
+
