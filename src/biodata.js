@@ -243,7 +243,7 @@ export default class Biodata extends Component {
                                 <Col span={4}> 
                                     <span className="floatRight">Programming knowledges :</span>
                                  </Col>     
-                                <span className="floatLeft">Java, VB.Net, C#, HTML, CSS, Javascript, REST, ReactJS</span>
+                                <span className="floatLeft">C#, VB.NET, Java HTML, CSS, Javascript, REST, ReactJS, NodeJS</span>
                            </Row>
                  <div className="space5"></div>
                 <Row>
@@ -264,7 +264,7 @@ export default class Biodata extends Component {
                      <Col span={8}></Col>
                 </Row>   
                    </div>
-                    <div className="space50"></div>
+                    <div className="space100"></div>
   </div> 
               
                

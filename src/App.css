@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 80px;
 }
 
@@ -15,12 +15,12 @@
 }
 
 .App-footer {
-       position:absolute;
+   position:fixed;
    bottom:0;
    width:100%;
   background-color: #222;
   height: 100px;
-  padding: 20px;
+  padding: 30px;  
   color: white;
 }
 

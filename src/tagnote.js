@@ -342,7 +342,8 @@ onUpdateData = () => {
                           <Table columns={columns} dataSource={data} />
                         </Col>              
                      <Col span={2}></Col>
-                </Row>                                                                    
+                </Row>  
+                 <div className="space100"></div>
             </div>
             
          

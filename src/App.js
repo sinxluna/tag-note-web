@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
+import { Route, NavLink, HashRouter } from 'react-router-dom';
+import logo from './cute-hamster.png';
 import './App.css';
 import './main.css';
 import history from './history';
@@ -16,18 +16,23 @@ class App extends Component {
      
       
     return (
+        <HashRouter>
      <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title titleColor">Welcome to Tag Notes</h1>
-        </header>
-            <Router  history={history}>
-                <div>
-                  <Route path="/" render={(props) => <TagNote {...props} />} />
-                <Route path="tagnote" render={(props) => <TagNote {...props} />} />
-                </div>
-                    
-            </Router>
+          <h1 className="App-title titleColor">JL Playground</h1>
+        </header>            
+            <ul className="header">
+            <li><NavLink to="/biodata">Biodata</NavLink></li>          
+            <li><NavLink to="/tagnote">TagNote</NavLink></li>
+         
+          </ul>
+          <div className="content">
+            <Route path="/tagnote" component={TagNote}/>
+            <Route path="/biodata" component={Biodata}/>
+           
+          </div>
+            
             <footer className="App-footer">
            
                     <a href="https://facebook.com/jian.liang93" target="_blank">
@@ -41,7 +46,7 @@ class App extends Component {
               
             </footer>
       </div>
-         
+         </HashRouter>
     );
   }
 }
