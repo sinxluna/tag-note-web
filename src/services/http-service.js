@@ -3,7 +3,7 @@ import 'whatwg-fetch';
 export default class HttpService {
     getTags = () => {
         var promise = new Promise((resolve, reject) => {
-            fetch('http://localhost:3004/tag')
+            fetch('http://localhost:9000/tag')
               .then(response =>{
                 resolve(response.json());
                   })                       
@@ -17,7 +17,7 @@ export default class HttpService {
      
         
           var promise = new Promise((resolve, reject) => {
-           fetch('http://localhost:3004/searchTag', {
+           fetch('http://localhost:9000/searchTag', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -35,7 +35,7 @@ export default class HttpService {
      
      addTag = (tag) => {
              var promise = new Promise((resolve, reject) => {
-           fetch('http://localhost:3004/addnotes', {
+           fetch('http://localhost:9000/addnotes', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -52,7 +52,7 @@ export default class HttpService {
      deleteNotes = (id) => {
          
            var promise = new Promise((resolve, reject) => {
-           fetch('http://localhost:3004/deletenotes', {
+           fetch('http://localhost:9000/deletenotes', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
