@@ -3,10 +3,12 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 import logo from './cute-hamster.png';
 import './App.css';
 import './main.css';
+import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 import history from './history';
 import { Icon } from 'antd';
 import TagNote from './tagnote';
 import Biodata from './biodata';
+import Home from './home';
 
 class App extends Component {
     
@@ -17,21 +19,27 @@ class App extends Component {
       
     return (
         <HashRouter>
+           
      <div className="App">
+          
         <header className="App-header">
+          
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title titleColor">JL Playground</h1>
         </header>            
             <ul className="header">
+            <li><NavLink to="/">Home</NavLink></li>            
             <li><NavLink to="/biodata">Biodata</NavLink></li>          
             <li><NavLink to="/tagnote">TagNote</NavLink></li>
          
           </ul>
-          <div className="content">
+       
+         <div className="content">
+            <Route exact path="/" component={Home}/>        
             <Route path="/tagnote" component={TagNote}/>
             <Route path="/biodata" component={Biodata}/>
-           
-          </div>
+         </div>  
+         
             
             <footer className="App-footer">
            

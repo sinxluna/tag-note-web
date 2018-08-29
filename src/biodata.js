@@ -16,7 +16,7 @@ export default class Biodata extends Component {
          
                   <div>
                    <div className="marginAvatar">
-                     <Avatar size="default" src="https://s3-ap-southeast-1.amazonaws.com/tag-note/jl.jpg" style={{ height:200, width:130 }}/>
+                     <Avatar size="default" src="https://d18pfoii5xhgav.cloudfront.net/jl.jpg" style={{ height:200, width:130 }}/>
                    </div>
                    
                       <div className="marginSides">
