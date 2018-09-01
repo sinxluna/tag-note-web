@@ -1,3 +1,27 @@
+.w3-lobster {
+    display:block;
+    font-family: "Lobster", serif;
+    font-weight: bold;
+    color: white;
+     text-shadow: 0 0 3px #000; /* horizontal-offset vertical-offset 'blur' colour */  
+    font-size: 6em;
+  padding-top: 165px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("./images/korea-background.jpg");
+   
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .landscape {
    
      display: block;

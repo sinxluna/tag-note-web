@@ -16,7 +16,7 @@ export default class Home extends Component {
 
            return (   
                
-           <div>
+           <div className="w3-container">
                    <div className="welcomeDiv"><span className="welcomeFont">Welcome to JL Playground!</span></div>
                <div className="carouselDiv">
                      <Row>
@@ -32,6 +32,10 @@ export default class Home extends Component {
                      <Col span={8}></Col>
                    </Row>
                 </div>
+                  
+                   <div className="parallax">
+                       <span className="w3-lobster">South Korea</span>                                                                         
+                   </div>
                 <div className="firstDiv">
                     <Row>
                         <Col span={6}></Col>
