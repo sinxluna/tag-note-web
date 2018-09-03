@@ -24,7 +24,7 @@ export default class Home extends Component {
               params={{
   "particles": {
     "number": {
-      "value": 150,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
