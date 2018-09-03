@@ -33,7 +33,7 @@ export default class Home extends Component {
                    </Row>
                 </div>
                   
-                   <div className="parallax">
+                   <div className="parallax-korea">
                        <span className="w3-lobster">South Korea</span>                                                                         
                    </div>
                 <div className="firstDiv">
@@ -54,12 +54,15 @@ export default class Home extends Component {
                          <Col span={6}></Col>
                     </Row>
                 </div>
-                <div className="secondDiv">
+                     <div className="parallax-japan">
+                       <span className="w3-lobster">Japan</span>                                                                         
+                   </div>
+                <div className="firstDiv">
                     <Row>
-                        <Col span={6}></Col>
-                         <Col span={6}><span className="imgDescription">Under Construction!<br></br>Under Construction!<br></br>Under Construction!<br></br></span></Col>
-                         <Col span={6}></Col>
-                         <Col span={6}></Col>
+                        <Col span={3}></Col>
+                         <Col span={9}><span className="imgDescription">Snow Snow Snow!<br></br></span><img className="imgSize" src={require('./images/road_to_shirakawago.jpg')}></img></Col>
+                         <Col className="japan-marginLeft" span={9}><img className="imgSize" src={require('./images/shirakawago.jpg')}></img><span className="imgDescription">Shirakawago @ 白川郷<br></br></span></Col>
+                         <Col span={3}></Col>
                     </Row>
                 </div>
            </div>

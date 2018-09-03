@@ -8,9 +8,25 @@
   padding-top: 165px;
 }
 
-.parallax { 
+.parallax-korea { 
+      margin-top:10px;
     /* The image used */
     background-image: url("./images/korea-background.jpg");
+   
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-japan { 
+      margin-top:10px;
+    /* The image used */
+    background-image: url("./images/japan-background.jpg");
    
     /* Set a specific height */
     height: 500px; 
@@ -85,7 +101,7 @@
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
-     border-radius: 25px;
+     border-radius: 25px;     
 }
 
 
@@ -122,6 +138,10 @@
 
 .marginLeft{
     margin-left:-100px;
+}
+
+.japan-marginLeft{
+    margin-left:10px;
 }
 
 .marginTop{
