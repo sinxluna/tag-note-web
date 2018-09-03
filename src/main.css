@@ -8,6 +8,7 @@
   padding-top: 165px;
 }
 
+
 .parallax-korea { 
       margin-top:10px;
     /* The image used */
@@ -74,7 +75,26 @@
     font-size: 4em;
 }
 
+.divJL {           
+    /* Set a specific height */
+    height: 600px; 
+    
+    /* Create the parallax scrolling effect */
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/background-star.jpg");
+    background-color: #FAEBD7;
+    padding-top:50px;
+    padding-bottom: 30px;
+    
+  
+}
+
+
 .carouselDiv {   
+      margin-top:10px;    
     background-color: #FAEBD7;
     padding-top:50px;
     padding-bottom: 30px;
