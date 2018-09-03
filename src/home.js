@@ -19,7 +19,9 @@ export default class Home extends Component {
            return (   
                
            <div className="w3-container">
-                 
+                   <Row>
+                     <Col sm={0} lg={0}></Col>
+                         <Col sm={24} lg={24}> 
                  <Particles className="divJL"
               params={{
   "particles": {
@@ -132,6 +134,9 @@ export default class Home extends Component {
   "retina_detect": true
 }} 
             />
+                       </Col>
+                         <Col sm={0} lg={0}></Col>
+                   </Row>
                    <div className="carouselDiv">
                    
                      <Row>
