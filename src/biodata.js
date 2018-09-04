@@ -26,71 +26,71 @@ export default class Biodata extends Component {
                     <Col sm={24} lg={8}>
                        <Card title="Personal Detail">
                             <Row>
-                                <Col sm={6} lg={4}> 
+                               <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight">Name :</span>
                                  </Col> 
-                                 <Col sm={18} lg={20}> 
+                              <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">Phan Jian Liang</span>  
                                       </Col> 
                            </Row>
                  <div className="space5"></div>
                             <Row>
-                                <Col sm={6} lg={4}> 
+                                <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight">Nationality :</span>
                                  </Col>     
-                                 <Col sm={18} lg={20}> 
+                                   <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">Malaysian</span>
                                                                            </Col> 
                            </Row>
                               <div className="space5"></div>
                             <Row>
-                                 <Col sm={6} lg={4}> 
+                                <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight">Date of birth :</span>
                                  </Col>     
-                                 <Col sm={18} lg={20}> 
+                                    <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">3 Dec 1993</span>
                                       </Col>   
                            </Row>
                                 <div className="space5"></div>               
                            <Row>
-                               <Col sm={6} lg={4}> 
+                              <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight">Address :</span>
                                  </Col>     
-                                <Col sm={18} lg={20}> 
+                                  <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">647, Jalan Nenas 1</span>
                                      </Col>
                            </Row>
                             <Row>
-                                <Col sm={6} lg={4}> 
+                                <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight"></span>
                                  </Col>     
-                            <Col sm={18} lg={20}> 
+                                <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">Taman Rahang, 70100</span>
                                   </Col> 
                            </Row>
                            <Row>
-                                <Col sm={6} lg={4}> 
+                              <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight"></span>
                                  </Col>     
-                                 <Col sm={18} lg={20}> 
+                                     <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">Seremban, Negeri Sembilan</span>
                                       </Col>   
                            </Row>
                               <div className="space5"></div>
                               <Row>
-                                 <Col sm={6} lg={4}> 
+                                  <Col xs={6} sm={6} lg={4}> 
                                     <span className="floatRight">Contact :</span>
                                  </Col>     
-                                    <Col sm={18} lg={20}> 
+                                     <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">016-6634728</span>
                                           </Col>  
                            </Row>
                             <div className="space5"></div>
                               <Row>
-                                 <Col sm={6} lg={4}> 
+                                  <Col xs={6} sm={6} lg={4}>  
                                     <span className="floatRight">Email :</span>
                                  </Col>   
-                                      <Col sm={18} lg={20}> 
+                                       <Col xs={18} sm={18} lg={20}> 
                                 <span className="floatLeft">phanjl1993@gmail.com</span>
                                             </Col> 
                            </Row>
