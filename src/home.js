@@ -26,17 +26,17 @@ export default class Home extends Component {
               params={{
   "particles": {
     "number": {
-      "value": 80,
+      "value": 50,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 600
       }
     },
     "color": {
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "triangle",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -79,14 +79,14 @@ export default class Home extends Component {
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 5,
       "direction": "none",
       "random": false,
       "straight": false,
-      "out_mode": "out",
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
@@ -135,13 +135,13 @@ export default class Home extends Component {
 }} 
             />
                        </Col>
-                         <Col sm={0} lg={0}></Col>
+                         <Col xs={0} sm={0} lg={0}></Col>
                    </Row>
                    <div className="carouselDiv">
                    
                      <Row>
-                     <Col sm={4} lg={8}></Col>
-                     <Col sm={16} lg={8}>                          
+                     <Col xs={0} sm={4} lg={8}></Col>
+                     <Col xs={24} sm={16} lg={8}>                          
                          <Carousel afterChange={onChange}>
                         <div className="landscape"><img className="imgSize" src={require('./images/seongsaniichulbong.jpg')}></img></div>
                         <div className="landscape"><img className="imgSize" src={require('./images/lotte.jpg')}></img></div>
@@ -149,7 +149,7 @@ export default class Home extends Component {
                         <div className="landscape"><img className="imgSize" src={require('./images/shirakawago.jpg')}></img></div>
                       </Carousel>
                    </Col>
-                     <Col sm={4} lg={8}></Col>
+                     <Col xs={0} sm={4} lg={8}></Col>
                    </Row>
                 </div>
                   
@@ -158,20 +158,20 @@ export default class Home extends Component {
                    </div>
                 <div className="firstDiv">
                     <Row>
-                        <Col sm={2} md={6}></Col>
-                         <Col sm={10} md={6}><img className="imgNTower" src={require('./images/ntower.jpg')}></img></Col>
-                         <Col  sm={10} md={6}>
+                        <Col xs={0} sm={2} md={6}></Col>
+                         <Col xs={24} sm={10} md={6}><img className="imgNTower" src={require('./images/ntower.jpg')}></img></Col>
+                         <Col xs={24} sm={10} md={6}>
                              <div className="marginTop">
                              <span className="imgDescription">Namsan Seoul Tower</span>
                              <br></br>
                              <h3>Amazing Night View =)</h3>
                              <br></br>                             
                              </div>
-                             <div className="marginLeft"><img className="imgLoveLock" src={require('./images/lovelock.jpg')}></img></div>
-                             <div className="marginLeft"><img className="imgLoveLock" src={require('./images/lovelock2.jpg')}></img></div>
+                             <div className=""><img className="imgLoveLock" src={require('./images/lovelock.jpg')}></img></div>
+                             <div className=""><img className="imgLoveLock" src={require('./images/lovelock2.jpg')}></img></div>
                         
                         </Col>
-                         <Col sm={2} md={6}></Col>
+                         <Col xs={0} sm={2} md={6}></Col>
                     </Row>
                 </div>
                      <div className="parallax-japan">
