@@ -26,71 +26,71 @@ export default class Biodata extends Component {
                     <Col sm={24} lg={8}>
                        <Card title="Personal Detail">
                             <Row>
-                               <Col xs={6} sm={6} lg={4}> 
+                             <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight">Name :</span>
                                  </Col> 
-                              <Col xs={18} sm={18} lg={20}> 
+                            <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">Phan Jian Liang</span>  
                                       </Col> 
                            </Row>
                  <div className="space5"></div>
                             <Row>
-                                <Col xs={6} sm={6} lg={4}> 
+                               <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight">Nationality :</span>
                                  </Col>     
-                                   <Col xs={18} sm={18} lg={20}> 
+                               <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">Malaysian</span>
                                                                            </Col> 
                            </Row>
                               <div className="space5"></div>
                             <Row>
-                                <Col xs={6} sm={6} lg={4}> 
+                              <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight">Date of birth :</span>
                                  </Col>     
-                                    <Col xs={18} sm={18} lg={20}> 
+                                <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">3 Dec 1993</span>
                                       </Col>   
                            </Row>
                                 <div className="space5"></div>               
                            <Row>
-                              <Col xs={6} sm={6} lg={4}> 
+                            <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight">Address :</span>
                                  </Col>     
-                                  <Col xs={18} sm={18} lg={20}> 
+                             <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">647, Jalan Nenas 1</span>
                                      </Col>
                            </Row>
                             <Row>
-                                <Col xs={6} sm={6} lg={4}> 
+                              <Col xs={8} sm={6} lg={6}>  
                                     <span className="floatRight"></span>
                                  </Col>     
-                                <Col xs={18} sm={18} lg={20}> 
+                             <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">Taman Rahang, 70100</span>
                                   </Col> 
                            </Row>
                            <Row>
-                              <Col xs={6} sm={6} lg={4}> 
+                           <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight"></span>
                                  </Col>     
-                                     <Col xs={18} sm={18} lg={20}> 
+                                 <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">Seremban, Negeri Sembilan</span>
                                       </Col>   
                            </Row>
                               <div className="space5"></div>
                               <Row>
-                                  <Col xs={6} sm={6} lg={4}> 
+                                 <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight">Contact :</span>
                                  </Col>     
-                                     <Col xs={18} sm={18} lg={20}> 
+                                   <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">016-6634728</span>
                                           </Col>  
                            </Row>
                             <div className="space5"></div>
                               <Row>
-                                  <Col xs={6} sm={6} lg={4}>  
+                                 <Col xs={8} sm={6} lg={6}> 
                                     <span className="floatRight">Email :</span>
                                  </Col>   
-                                       <Col xs={18} sm={18} lg={20}> 
+                                       <Col xs={16} sm={18} lg={18}> 
                                 <span className="floatLeft">phanjl1993@gmail.com</span>
                                             </Col> 
                            </Row>
@@ -105,61 +105,61 @@ export default class Biodata extends Component {
       <Col sm={24} lg={8}>
         <Card title="Highest Qualification" bordered={true} className="cardSize">
           <Row>
-                <Col xs={6} sm={6} lg={4}> 
+                <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Level :</span>
                </Col>    
-                    <Col xs={18} sm={18} lg={20}> 
+                 <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Degree</span>
                    </Col> 
            </Row>
             <div className="space5"></div>
              <Row>
-                <Col xs={6} sm={6} lg={4}> 
+                 <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Field Of Study :</span>
                </Col>     
-                                     <Col xs={18} sm={18} lg={20}> 
+                <Col xs={16} sm={18} lg={18}>  
               <span className="floatLeft">Information Technology</span>
                       </Col>
            </Row>
             <div className="space5"></div>
             <Row>
-               <Col xs={6} sm={6} lg={4}>
+                <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Major :</span>
                </Col>     
-                   <Col xs={18} sm={18} lg={20}> 
+               <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Software System Development</span>
                        </Col>
            </Row>
             <div className="space5"></div>
             <Row>
-               <Col xs={6} sm={6} lg={4}>
+                <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Name Of Institution :</span>
                </Col>     
-                   <Col xs={18} sm={18} lg={20}> 
+                <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Tunku Abdul Rahman University College</span></Col>
            </Row>
             <div className="space5"></div>
             <Row>
-               <Col xs={6} sm={6} lg={4}>
+                <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Full Course Name :</span>
                </Col>   
-                   <Col xs={18} sm={18} lg={20}> 
+                 <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Bachelor of Information Technology (Honours) in Software System Development</span></Col>
            </Row>
             <div className="space5"></div>
               <Row>
-              <Col xs={6} sm={6} lg={4}>
+               <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Graduate Year :</span>
                </Col>     
-                   <Col xs={18} sm={18} lg={20}> 
+                   <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">02/2016</span></Col>
            </Row>
             <div className="space5"></div>
             <Row>
-               <Col xs={6} sm={6} lg={4}>
+               <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">CGPA :</span>
                </Col>    
-                   <Col xs={18} sm={18} lg={20}> 
+                   <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">3.1027</span></Col>
            </Row>
           </Card>
@@ -167,50 +167,50 @@ export default class Biodata extends Component {
       <Col sm={24} lg={8}>
         <Card title="2nd Qualification" bordered={true} className="cardSize">
           <Row>
-             <Col xs={6} sm={6} lg={4}>
+             <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Level :</span>
                </Col>     
-                   <Col xs={18} sm={18} lg={20}> 
+             <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Diploma</span></Col>
            </Row>
             <div className="space5"></div>
              <Row>
-            <Col xs={6} sm={6} lg={4}>
+            <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Field Of Study :</span>
                </Col>     
-                                      <Col xs={18} sm={18} lg={20}> 
+           <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Information Technology</span></Col>
            </Row>
             <div className="space5"></div>
              <Row>
-            <Col xs={6} sm={6} lg={4}>
+             <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Major :</span>
                </Col>     
-                                  <Col xs={18} sm={18} lg={20}> 
+              <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Information Systems Engineering</span></Col>
            </Row>
             <div className="space5"></div>
             <Row>
-              <Col xs={6} sm={6} lg={4}>
+             <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Name Of Institution :</span>
                </Col>     
-                                   <Col xs={18} sm={18} lg={20}> 
+             <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Tunku Abdul Rahman University College</span></Col>
            </Row>
             <div className="space5"></div>
              <Row>
-              <Col xs={6} sm={6} lg={4}>
+             <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Graduate Year :</span>
                </Col>     
-                                   <Col xs={18} sm={18} lg={20}> 
+              <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">09/2013</span></Col>
            </Row>
             <div className="space5"></div>
             <Row>
-              <Col xs={6} sm={6} lg={4}>
+              <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">CGPA :</span>
                </Col>   
-                                  <Col xs={18} sm={18} lg={20}> 
+             <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">2.9627</span></Col>
            </Row>
           </Card>
@@ -218,34 +218,34 @@ export default class Biodata extends Component {
       <Col sm={24} lg={8}>
         <Card title="3rd Qualification" bordered={true} className="cardSize">
             <Row>
-                <Col xs={6} sm={6} lg={4}>
+               <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Level :</span>
                </Col>     
-                                     <Col xs={18} sm={18} lg={20}> 
+              <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">SPM</span>  </Col>    
            </Row>
               <div className="space5"></div>
               <Row>
-               <Col xs={6} sm={6} lg={4}>
+              <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Name Of Institution :</span>
                </Col>     
-                                     <Col xs={18} sm={18} lg={20}> 
+             <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">SMK Bukit Mewah Seremban Negeri Sembilan</span>  </Col>    
            </Row>
               <div className="space5"></div>
              <Row>
-             <Col xs={6} sm={6} lg={4}>
+            <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Field Of Study :</span>
                </Col>     
-                                    <Col xs={18} sm={18} lg={20}> 
+          <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">Art Stream</span>  </Col>    
            </Row>
               <div className="space5"></div>
              <Row>
-                 <Col xs={6} sm={6} lg={4}> 
+                <Col xs={8} sm={6} lg={6}> 
                  <span className="floatRight">Graduate Year :</span>
                </Col>     
-                   <Col xs={18} sm={18} lg={20}> 
+                   <Col xs={16} sm={18} lg={18}> 
               <span className="floatLeft">12/2010</span>  </Col>    
            </Row>
           </Card>
